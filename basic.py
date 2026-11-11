@@ -7,7 +7,7 @@ this is a multi line comment
 """
 
 
-"""print(" trying the print function ")
+print(" trying the print function ")
 
 print("shows me what is in the brackets")
 
@@ -28,7 +28,7 @@ print(name)
 print(lastname)
 print(age)
 print('your name is ' + name + ' ' + lastname + ' and your age is ' + age)
-"""
+
 #round function. rounds the number to the nearest whole number.
 print(round(3.4159))
 print(round(3.5))
@@ -72,3 +72,10 @@ print(range(1,10,1)) # 1st number is lower end , middle is maxend , last is how 
 #list() gives a list.EZ XD.
 print(list(range(1,10,1))) #good
 print(list([0,1]))#not good LMAO
+
+#id()
+print(id(1)) # id returns an unique intiger identifier for the object . google says it might be the actual memory address
+
+#dir
+print(dir(2)) # returns related properties and methods for that specific object
+print(dir('fardin')) # very good 
